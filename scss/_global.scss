@@ -1,0 +1,81 @@
+html {
+   box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+   box-sizing: inherit;
+}
+body {
+   font-family: "Ubuntu", sans-serif;
+   font-weight: 400;
+   color: $brown;
+}
+a {
+   display: inline-block;
+   text-decoration: none;
+   color: inherit;
+}
+
+ul,
+li,
+p {
+   list-style: none;
+   margin: 0;
+   padding: 0;
+}
+.container {
+   width: 100%;
+   max-width: 1330px;
+   padding: 0 15px;
+   margin: 0 auto;
+}
+.btn {
+   height: 46px;
+   padding: 9px 25px;
+   font-size: 15px;
+   font-weight: 500;
+   line-height: 170%;
+   color: #fff;
+   border-radius: 4px;
+}
+.btn--green {
+   background: linear-gradient(112.5deg, #8ac44b -24.79%, #86e124 108.68%);
+   transition: all 0.5s;
+   &:hover {
+      background: linear-gradient(286.94deg, #8ac44b -12.05%, #86e124 126.25%);
+   }
+   &:focus {
+      outline: none;
+   }
+   &:active {
+      background: linear-gradient(286.94deg, #59a409 -12.05%, #5baf00 126.25%);
+   }
+}
+.btn--white {
+   color: $brown;
+   border: 2px solid $green;
+   transition: all 0.3s;
+   &:hover {
+      background: linear-gradient(286.94deg, #8ac44b -12.05%, #86e124 126.25%);
+      color: #ffffff;
+   }
+   &:focus {
+      outline: none;
+   }
+   &:active {
+      background: linear-gradient(286.94deg, #59a409 -12.05%, #5baf00 126.25%);
+   }
+}
+.title {
+   text-align: center;
+   font-weight: 700;
+   font-size: 44px;
+   line-height: 51px;
+   span {
+      color: $green;
+   }
+}
+input:hover {
+   border: 2px solid #ccc;
+}
