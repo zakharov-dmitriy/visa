@@ -227,6 +227,7 @@ select {
       border-radius: 8px;
    }
    &-box {
+      margin-left: 20px;
       height: 370px;
       display: flex;
       flex-direction: column;
@@ -766,6 +767,7 @@ select {
    }
    &__item {
       position: relative;
+      // outline: 10px solid transparent;
    }
    &__employee {
       position: absolute;
@@ -793,7 +795,7 @@ select {
 .team-img {
    height: 100%;
    &:hover {
-      // border: 10px solid $green;
+      // outline: 10px solid $green;
       box-shadow: inset 5px 5px 5px 5px $green;
    }
 }
