@@ -263,6 +263,7 @@ select {
       img {
          display: block;
          max-width: 650px;
+         width: 100%;
          margin-bottom: 22px;
       }
    }
@@ -731,6 +732,7 @@ select {
    &__slider {
       position: relative;
       max-width: 800px;
+      width: 100%;
       margin: 0 auto;
       text-align: center;
    }
